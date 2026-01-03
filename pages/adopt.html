@@ -38,3 +38,43 @@ We will review your application and get in touch soon.
 <option value="bird">Bird (Parrot)</option>
 <option value="other">Other</option>
 </select>
+<label>Do you have experience owning a pet? <span class="required">*</span></label>
+<div class="radio-group">
+<label><input type="radio" name="experience" value="first" required> First-time pet owner</label>
+<label><input type="radio" name="experience" value="experienced"> Experienced pet owner</label>
+</div>
+<label>Home Type <span class="required">*</span></label>
+<div class="checkbox-group">
+<label><input type="checkbox" name="home" value="house"> House with yard</label>
+<label><input type="checkbox" name="home" value="apartment"> Apartment</label>
+<label><input type="checkbox" name="home" value="other"> Other</label>
+</div>
+<label>Who lives in your home?</label>
+<div class="checkbox-group">
+<label><input type="checkbox" name="household" value="adults"> Adults only</label>
+<label><input type="checkbox" name="household" value="children"> Children under 12</label>
+<label><input type="checkbox" name="household" value="other-pets"> Other pets</label>
+</div>
+<label for="message">Why do you want to adopt a pet? (Optional)</label>
+<textarea id="message" name="message" rows="4" placeholder="Tell us about your motivation and lifestyle..."></textarea>
+<button type="submit">Submit Adoption Interest</button>
+</form>
+<div id="successMessage" class="success-message" style="display: none;">
+<h3>✅ Thank You!</h3>
+<p>Your adoption interest form has been submitted successfully. We will contact you soon via email or phone.</p>
+<p>We're excited to help you find your perfect companion! 🐾</p>
+</div>
+</div>
+<footer>
+<p>© 2026 Pet Adoption Portal</p>
+<p>University Project | Group Members: Syed Faizan Muneer, Fatima Ikhlaq, Hiba Bint-e-Imran</p>
+</footer>
+<script>
+document.getElementById('adoptionForm').addEventListener('submit', function(e) {
+e.preventDefault(); 
+document.getElementById('adoptionForm').style.display = 'none';
+document.getElementById('successMessage').style.display = 'block';
+});
+</script>
+</body>
+</html>
