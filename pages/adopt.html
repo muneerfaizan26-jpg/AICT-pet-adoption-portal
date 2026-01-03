@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pet Adoption Portal - Adopt Form</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav>
+<a href="index.html">Home</a>
+<a href="pet.html">Pets</a>
+<a href="table.html">Adoption Fees</a>
+<a href="adopt.html">Adopt Form</a>
+<a href="about.html">About</a>
+</nav>
+<div class="form-container">
+<h1>🐾 Pet Adoption Interest Form</h1>
+<p class="form-intro">
+Thank you for choosing to adopt! Please fill out this form to express your interest in adopting a pet. 
+We will review your application and get in touch soon.
+</p>
+<form id="adoptionForm">
+<label for="fullName">Full Name <span class="required">*</span></label>
+<input type="text" id="fullName" name="fullName" required placeholder="Enter your full name">
+<label for="email">Email Address <span class="required">*</span></label>
+<input type="email" id="email" name="email" required placeholder="your.email@example.com">
+<label for="phone">Phone Number <span class="required">*</span></label>
+<input type="tel" id="phone" name="phone" required placeholder="+92 300 1234567">
+<label for="address">Home Address <span class="required">*</span></label>
+<textarea id="address" name="address" rows="3" required placeholder="Your full home address"></textarea>
+<label for="petType">Preferred Pet Type</label>
+<select id="petType" name="petType">
+<option value="">Select a pet type</option>
+<option value="dog">Dog</option>
+<option value="cat">Cat</option>
+<option value="rabbit">Rabbit</option>
+<option value="bird">Bird (Parrot)</option>
+<option value="other">Other</option>
+</select>
