@@ -1,0 +1,19 @@
+body {
+font-family: Arial, sans-serif;
+background: #f8fafc;
+color: #1f2937;
+margin: 0;
+padding: 0;
+}
+nav {
+background: #2563eb;
+text-align: center;
+padding: 15px;
+}
+nav a {
+color: white;
+margin: 0 15px;
+text-decoration: none;
+font-weight: bold;
+font-size: 18px;
+}
