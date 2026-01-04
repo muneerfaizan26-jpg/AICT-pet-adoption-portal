@@ -64,3 +64,36 @@ gap: 30px;
 max-width: 1200px;
 margin: 40px auto;
 }
+.feature-item, .why-item, .story-item, .care-item {
+background: white;
+padding: 30px;
+border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+.home-images {
+display: grid;grid-template-columns: 1fr 1fr;
+grid-template-columns: 1fr 1fr;
+gap: 30px;
+max-width: 1200px;  margin: 50px auto;
+ padding: 0 20px;
+}
+.home-images img {
+width: 100%;
+border-radius: 12px;
+box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+footer {
+background: #1e3a8a;
+color: white;
+text-align: center;
+padding: 30px;
+margin-top: 60px;
+}
+@media (max-width: 768px) {
+.home-images {
+grid-template-columns: 1fr;
+}
+nav a {
+display: block;
+margin: 10px 0;
+}
+}
