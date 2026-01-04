@@ -20,3 +20,51 @@ font-weight: bold;
 nav a:hover {
 text-decoration: underline;
 }
+.volunteer-hero {
+  text-align: center;
+  padding: 70px 20px;
+  background: linear-gradient(to bottom, #d1fae5, #ecfdf5);
+}
+.volunteer-hero h1 {
+color: #166534;
+font-size: 2.8rem;
+}
+.tagline {
+font-size: 1.6rem;
+font-weight: bold;
+color: #15803d;
+}
+.hero-description {
+max-width: 800px;
+margin: 20px auto;
+font-size: 1.2rem;
+color: #166534;
+}
+.hero-buttons {
+margin-top: 30px;
+}
+.cta-button.primary {
+background: #16a34a;
+margin: 0 10px;
+}
+.cta-button.secondary {
+background: #2563eb;
+}
+.ways-to-help {
+padding: 60px 20px;
+text-align: center;
+background: white;
+}
+.help-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+gap: 30px;
+max-width: 1200px;
+ margin: 40px auto;
+}
+.help-item {
+background: #f0fdf4;
+padding: 30px;
+border-radius: 12px;
+ box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
