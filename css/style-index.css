@@ -1,36 +1,66 @@
 body {
-  font-family: Arial, sans-serif;
-  background: #f8fafc;
-  color: #1f2937;
-  margin: 0;
-  padding: 0;
+font-family: Arial, sans-serif;
+background: #f8fafc;
+color: #1f2937;
+margin: 0;
+padding: 0;
 }
 nav {
-  background: #2563eb;
-  text-align: center;
-  padding: 15px;
+background: #2563eb;
+text-align: center;
+padding: 15px;
 }
 nav a {
-  color: white;
-  margin: 0 15px;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 18px;
+color: white;
+margin:15px;
+text-decoration: none;
+font-weight:bold;
+font-size:18px;
 }
 nav a:hover {
-  text-decoration: underline;
+text-decoration: underline;
 }
 .hero {
-  text-align: center;
-  padding: 60px 20px;
-  background: #e0f2fe;
+text-align: center;
+padding: 60px 20px;
+background: #e0f2fe;
 }
 .hero h1 {
-  font-size: 2.8rem;
-  color: #1e40af;
+font-size: 2.8rem;
+color: #1e40af;
 }
 .tagline {
-  font-size: 1.5rem;
-  color: #2563eb;
-  font-weight: bold;
+font-size: 1.5rem;
+color: #2563eb;
+font-weight: bold;
+}
+.description {
+max-width: 800px;
+ margin: 20px auto;
+font-size: 1.2rem;
+line-height: 1.6;
+}
+.cta-button {
+display: inline-block;
+background: #16a34a;
+color: white;
+padding: 14px 32px;
+font-size: 1.2rem;
+font-weight: bold;
+border-radius: 8px;
+text-decoration: none;
+}
+.cta-button:hover {
+  background: #15803d;
+}
+.features, .why-adopt, .success-stories, .pet-care, .how-to-adopt, .team, .contact {
+ padding: 50px 20px;
+ text-align: center;
+}
+.features-grid, .why-grid, .story-grid, .care-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+gap: 30px;
+max-width: 1200px;
+margin: 40px auto;
 }
