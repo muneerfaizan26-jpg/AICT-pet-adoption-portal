@@ -87,3 +87,43 @@ Your generous donation goes directly toward helping homeless pets. Choose an amo
  <option>Transport help</option>
 <option>Other</option>
 </select>
+<label for="vMessage">Tell us about yourself (optional)</label>
+<textarea id="vMessage" rows="4" placeholder="Availability, experience with animals, why you want to volunteer..."></textarea>
+<button type="submit">Submit Volunteer Application</button>
+</form>
+<div id="volunteerSuccess" class="success-message" style="display: none;">
+<h3>🎉 Thank You!</h3>
+<p>We’ve received your volunteer application! Someone from our team will contact you soon.</p>
+<p>Your kindness means the world to these animals. 🐾</p>
+</div>
+</div>
+</section>
+<section class="impact">
+<h2>Your Support Makes a Real Impact</h2>
+<div class="impact-grid">
+<div class="impact-item">
+<h3>RS1,000</h3>
+<p>Feeds a dog for a whole month</p>
+</div>
+<div class="impact-item">
+<h3>RS2,500</h3>
+<p>Covers vaccination & deworming for one pet</p>
+</div>
+<div class="impact-item">
+<h3>2 Hours Volunteering</h3>
+<p>Gives lonely animals love and exercise</p>
+</div>
+</div>
+</section>
+<footer>
+<p>© 2026 Pet Adoption Portal</p>
+<p>University Project | Group Members: Syed Faizan Muneer, Fatima Ikhlaq, Hiba Bint-e-Imran</p>
+</footer>
+<script>
+document.getElementById('volunteerForm').addEventListener('submit', function(e) {e.preventDefault();
+document.getElementById('volunteerForm').style.display = 'none';
+document.getElementById('volunteerSuccess').style.display = 'block';
+});
+</script>
+</body>
+</html>
