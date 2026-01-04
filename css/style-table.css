@@ -1,105 +1,105 @@
 body {
-  font-family: Arial, sans-serif;
-  background: #f8fafc;
-  color: #1f2937;
-  margin: 0;
-  padding: 0;
+font-family: Arial, sans-serif;
+background: #f8fafc;
+color: #1f2937;
+margin: 0;
+padding: 0;
 }
 nav {
-  background: #2563eb;
-  text-align: center;
-  padding: 15px;
+background: #2563eb;
+text-align: center;
+padding: 15px;
 }
 nav a {
-  color: white;
-  margin: 0 15px;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 18px;
+color: white;
+margin: 0 15px;
+text-decoration: none;
+font-weight: bold;
+font-size: 18px;
 }
 nav a:hover {
-  text-decoration: underline;
+text-decoration: underline;
 }
 .fees-hero {
-  text-align: center;
-  padding: 60px 20px;
-  background: #ecfdf5;
+text-align: center;
+padding: 60px 20px;
+background: #ecfdf5;
 }
 .fees-hero h1 {
-  color: #166534;
+color: #166534;
 }
 .intro-text {
-  max-width: 900px;
-  margin: 20px auto;
-  font-size: 1.2rem;
+max-width: 900px;
+margin: 20px auto;
+font-size: 1.2rem;
 }
 table {
-  width: 90%;
-  max-width: 1000px;
-  margin: 40px auto;
-  border-collapse: collapse;
-  background: white;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+width: 90%;
+max-width: 1000px;
+margin: 40px auto;
+border-collapse: collapse;
+background: white;
+box-shadow: 0 8px 20px rgba(0,0,0,0.1);
 }
 th {
-  background: #16a34a;
-  color: white;
-  padding: 16px;
+background: #16a34a;
+color: white;
+padding: 16px;
 }
 td, th {
-  padding: 14px;
-  border: 1px solid #d1fae5;
-  text-align: center;
+padding: 14px;
+border: 1px solid #d1fae5;
+text-align: center;
 }
 td, th {
-  padding: 14px;
-  border: 1px solid #d1fae5;
-  text-align: center;
+padding: 14px;
+border: 1px solid #d1fae5;
+text-align: center;
 }
 tr:hover {
-  background: #f0fdf4;
+background: #f0fdf4;
 }
 .benefits, .faq, .fees-cta {
-  padding: 60px 20px;
-  text-align: center;
+padding: 60px 20px;
+text-align: center;
 }
 .benefits-grid, .faq-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 30px;
-  max-width: 1200px;
-  margin: 40px auto;
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+gap: 30px;
+max-width: 1200px;
+margin: 40px auto;
 }
 .benefit-item, .faq-item {
-  background: white;
-  padding: 30px;
-  border-radius: 12px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+background: white;
+padding: 30px;
+border-radius: 12px;
+box-shadow: 0 4px 15px rgba(0,0,0,0.05);
 }
 .cta-button {
-  display: inline-block;
-  background: #16a34a;
-  color: white;
-  padding: 14px 32px;
-  font-size: 1.2rem;
-  font-weight: bold;
-  border-radius: 8px;
-  text-decoration: none;
-  margin: 10px;
+display: inline-block;
+background: #16a34a;
+color: white;
+padding: 14px 32px;
+font-size: 1.2rem;
+font-weight: bold;
+border-radius: 8px;
+text-decoration: none;
+margin: 10px;
 }
 .cta-button:hover {
-  background: #15803d;
+background: #15803d;
 }
 footer {
-  background: #1e3a8a;
-  color: white;
-  text-align: center;
-  padding: 30px;
-  margin-top: 60px;
+background: #1e3a8a;
+color: white;
+text-align: center;
+padding: 30px;
+margin-top: 60px;
 }
 @media (max-width: 768px) {
-  nav a {
-    display: block;
-    margin: 10px 0;
+nav a {
+display: block;
+margin: 10px 0;
   }
 }
