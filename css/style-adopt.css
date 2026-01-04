@@ -29,4 +29,78 @@ border-radius: 16px;
 box-shadow: 0 10px 30px rgba(0,0,0,0.1);
 text-align: center;
 }
-
+.form-container h1 {
+color: #1e40af;
+}
+.form-intro {
+font-size: 1.1rem;
+margin-bottom: 30px;
+}
+form label {
+display: block;
+margin: 20px 0 8px;
+font-weight: bold;
+text-align: left;
+color: #1e3a8a;
+}
+.required {
+color: red;
+}
+input, textarea, select {
+width: 100%;
+padding: 12px;
+border: 1px solid #cbd5e1;
+border-radius: 8px;
+font-size: 1rem;
+box-sizing: border-box;
+}
+input:focus, textarea:focus, select:focus {
+border-color: #2563eb;
+}
+.radio-group, .checkbox-group {
+text-align: left;
+margin: 10px 0 20px;
+}
+.radio-group label, .checkbox-group label {
+display: block;
+margin: 10px 0;
+color: #4b5563;
+}
+form button {
+width: 100%;
+padding: 16px;
+background: #16a34a;
+color: white;
+font-size: 1.2rem;
+font-weight: bold;
+border: none;
+border-radius: 8px;
+cursor: pointer;
+}
+form button:hover {
+background: #15803d;
+}
+.success-message {
+padding: 40px;
+background: #f0fdf4;
+border: 2px solid #16a34a;
+border-radius: 12px;
+color: #166534;
+}
+footer {
+background: #1e3a8a;
+color: white;
+text-align: center;
+padding: 30px;
+margin-top: 60px;
+}
+@media (max-width: 768px) {
+nav a {
+display: block;
+margin: 10px 0;
+}
+.form-container {
+margin: 20px;
+padding: 20px;
+}
+}
