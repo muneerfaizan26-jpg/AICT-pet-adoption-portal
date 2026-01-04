@@ -81,4 +81,37 @@ text-align: center;
 padding: 50px 20px;
 background: #d1fae5;
 }
-
+.pet-care-tips, .why-adopt-section {
+padding: 60px 20px;
+text-align: center;
+background: white;
+}
+.tips-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+gap: 30px;
+max-width: 1200px;
+margin: 40px auto;
+}
+.tip {
+background: #f0f9ff;
+padding: 30px;
+border-radius: 12px;
+box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+footer {
+background: #1e3a8a;
+color: white;
+text-align: center;
+padding: 30px;
+margin-top: 60px;
+}
+@media (max-width: 768px) {
+nav a {
+display: block;
+margin: 10px 0;
+}
+.card img {
+height: 220px;
+}
+}
